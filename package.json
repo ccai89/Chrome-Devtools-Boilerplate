@@ -1,7 +1,7 @@
 {
-  "name": "Quell devtools extension",
+  "name": "name",
   "version": "0.0.1",
-  "description": "Quell devtool to help visualize and query GraphQL ",
+  "description": "description",
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve --mode development",
