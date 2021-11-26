@@ -16,8 +16,10 @@ module.exports = {
     clean: true,
   },
   devServer: {
-    port: 3010,
-    watchContentBase: true,
+    port: 3000,
+    static: {
+      directory: path.join(__dirname, 'src', 'pages', 'Panel'),
+    }
   },
   module: {
     rules: [
